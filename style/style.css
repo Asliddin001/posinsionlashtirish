@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow-y: hidden;
+}
+
+nav {
+    width: 100%;
+    background: #005e53;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    background: #005e53;
+    padding: 13px;
+}
+
+nav h2 a {
+    color: #ffffff;
+    font-size: 36px;
+    width: 197px;
+    margin-left: 12px;
+}
+
+nav ul li i {
+    margin-left: -20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    background-color: #02a28f;
+}
+
+nav {
+    padding: 1ren 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger {
+    color: white;
+}
+
+#show-list {
+    display: none;
+}
+
+#show-list Label .burger h2:nth-child(2) {
+    display: none;
+}
+
+#show-List:checked label .burger h2:nth-child(1) {
+    display: none;
+}
+
+#show-list:checked label .burger h2:nth-child(2) {
+    display: block;
+}
+
+.burger {
+    display: none;
+}
+
+.heroimg {
+    width: 744px;
+    height: 396px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: end;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heroimg span {
+    color: #000000;
+    font-weight: 700;
+}
+
+.pag2 {
+    width: 100%;
+    height: 420px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 25px;
+}
+
+.herotxt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.herotxt .btn {
+    width: 360px;
+    height: 48px;
+    background: #02A28F;
+    padding: 12px 103px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.herotxt .btn a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+}
+
+.herotxt .box {
+    width: 360px;
+    height: 96px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.herotxt .box .inbox {
+    width: 132px;
+    height: 70px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-left: 12px;
+}
+
+.herotxt .box .intxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.herotxt .box .intxt .sp {
+    font-weight: 700;
+}
+
+.herotxt .box .intxt p {
+    color: #616161;
+}
+
+/* pg3 */
+.title {
+    width: 744px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 396px;
+    background: #02A28F;
+    border-radius: 10px;
+}
+
+.title h1 {
+    margin-right: -72px;
+    color: #ffffff;
+}
+
+.title p {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.pg3 {
+    width: 66%;
+    height: 1004px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pg3img {
+    width: 744px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.boxp3 {
+    width: 377px;
+    height: 450px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.boxp3 .inbox3 {
+    width: 100%;
+    height: 191px;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.inbox3txt {
+    width: 100%;
+    height: 205px;
+    padding-left: 10px;
+}
+
+.inbox3txt .inp3 {
+    color: #02A28F;
+    margin-top: 10px;
+}
+
+.inbox3txt .by {
+    color: #616161;
+    margin-bottom: 16px;
+}
+
+.inbox3txt .by span {
+    color: #616161;
+    font-weight: 700;
+}
+
+.inbox3txt .pp3 {
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.inbox3txt .data {
+    color: #616161;
+}
+
+.page3 {
+    width: 100%;
+    height: 992px;
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    width: 100%;
+    height: 37px;
+    border-radius: 10px;
+    background: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labels {
+    width: 361px;
+    height: 116px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.label a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.labtxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 262px;
+}
+
+footer {
+    width: 100%;
+    height: 48px;
+    background: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+@media (max-width: 391px) {
+    .page3 {
+        flex-wrap: wrap;
+    }
+
+    .pg3img {
+        width: 765px;
+        height: 1950px;
+        flex-wrap: wrap;
+    }
+
+    .herotxt {
+        display: none;
+    }
+
+    .labels {
+        display: none;
+    }
+
+    .title {
+        width: 388px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 79px;
+        background: #02A28F;
+        border-radius: 10px;
+    }
+
+    .title h2 {
+        margin-right: -72px;
+        color: #ffffff;
+    }
+
+    .title p {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    .container {
+        width: 390px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1ren;
+        position: absolute;
+        width: 100vw;
+        top: 68px;
+        background-color: #02a28f;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    #show-list+label+ul {
+        height: 0;
+        padding: 0;
+        transform: translate (190%);
+        transition: all 0.5s;
+    }
+
+    #show-list:checked label+ul f {
+        height: 100%;
+        padding: 1ren;
+        transform: translate (0%);
+    }
+}
